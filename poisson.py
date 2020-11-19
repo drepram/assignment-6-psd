@@ -1,3 +1,6 @@
+# This program and its computation instruction was written by Andre Christoga Pramaditya (drepram.com) with the student ID (2006570006).
+# Program dan instruksi komputasi ini ditulis oleh Andre Christoga Pramaditya (drepram.com) dengan Nomor Pokok Mahasiswa (2006570006).
+
 import numpy as np
 import matplotlib.pyplot as plt
 
