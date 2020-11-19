@@ -22,7 +22,7 @@ plt.hist(lambda_two_hundred, 15, density=True)
 combined_histogram.suptitle('Poisson Distribution Combined Histogram', fontsize=14, fontweight='bold')
 combined_axes_title = combined_histogram.add_subplot(111)
 combined_histogram.subplots_adjust(top=0.85)
-combined_axes_title.set_title('Blue bars (λ = 2), Orange bars (λ = 20), Green bars (λ = 20)')
+combined_axes_title.set_title('Blue bars (λ = 2), Orange bars (λ = 20), Green bars (λ = 200)')
 combined_histogram.show()
 
 histogram_each, (case1, case2, case3) = plt.subplots(1,3, figsize=(15,9))
